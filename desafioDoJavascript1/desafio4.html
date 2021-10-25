@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="scriptDesafio4.js"></script>
+    <link rel="stylesheet" href="styleNumber4.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>ME ACHA!</h1>
+        <div id="first">
+            ENCONTRE UM ENDEREÇO PELO NÚMERO DE CEP
+        </div>
+        <figure>
+            <img id="imagem" src="img/outline_travel_explore_white_24dp.png" alt="">
+        </figure>
+    </header>
+    <main>
+        <figure id="imagem">
+            <img src="img/outline_travel_explore_white_24dp.png" alt="">
+        </figure>
+        <form method="post" name= "dados">
+            <fieldset>
+                <label for="cep">Cep</label>
+                <input id="cep" type="text" name="cepUsu" value="">
+                <label for="logradouro">Rua</label>
+                <input id="logradouro" type="text" name="ruaUsu" value="">
+                <label for="bairro">Bairro</label>
+                <input id="bairro" type="text" name="bairroUsu" value="">
+                <label for="localidade">Cidade</label>
+                <input id="localidade" type="text" name= "cityUsu" value="">
+                <label for="uf">Estado</label>
+                <input id="uf" type="text" name= "stateUsu" value="">          
+            </fieldset>
+        <input id="buscador" type="button" name="buscar" value="BUSCAR">
+        </form>
+    </main>
+</body>
+</html>
